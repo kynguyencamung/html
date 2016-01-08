@@ -1,1 +1,304 @@
-fdgdfsgfdgf
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai tap hinh anh</title>
+	<style type="text/css">
+
+	#wrap{width: 960px; background: gray; margin: 0 auto;}
+	
+	#main{width: auto; overflow: hidden;}
+	#content{width: 700px;float: left;background: green;height: 1700px}
+	
+	#footer{height: 150px;background: blue}
+	#content ul{list-style-type: none; width: 700px;}
+	#content ul li{
+		border: 1px solid red;
+		padding: 5px;
+		margin: 5px;
+		float: left;
+		width: 140px;
+	}
+	#content ul li img{max-width: 140px}
+	#menu{width: auto; height: 150px; border: 1px solid red;}
+	nav{height: 35px; width: 960px; background: blue; position: fixed; top: 10px; z-index: 99;}
+	#menu nav ul li{
+		border: 1px solid yellow;
+		width: 160px;
+		height: 20px;
+		margin-left: 10px;
+		margin-top: 7px;
+		float: left;
+	}
+	#sitebar{position: relative; width: 260px;float: right;background: red;height: 1700px}
+	#sitebar ul {
+		position: absolute;
+	}
+	#sitebar ul li{
+		border: 1px solid blue;
+		width: 130px;
+		height: 30px;
+		margin-bottom: 5px;
+	}
+	#backtotop{width: 50px; height: 40px; border: 1px solid yellow; position: fixed;bottom: 30px; right: 30px;}
+	</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+	var old = null;
+	$(window).scroll(function(){
+		if($(this).scrollTop() > old){
+			$("nav").hide();
+		} else {
+			$("nav").show();
+		}
+		old = $(this).scrollTop();
+	})
+	
+</script>
+</head>
+<body>
+<div id="wrap">
+	<div id="menu">
+		<nav>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/watch?v=5L40EipAP0A">888</a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="main">
+		<div id="content">
+			<ul>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 1</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 2</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 3</p>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="https://cdn1.tgdd.vn/Products/Images/42/71306/Feature/iphone-6s-16gb-4.jpg"> 
+						<p>san pham 4</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="sitebar">
+			<ul>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+				<li>
+					<a href=""></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="backtotop"><a href="#menu">back to top</a></div>
+	<div id="footer">
+		
+	</div>
+</div>
+</body>
+</html>
